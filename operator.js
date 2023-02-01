@@ -14,6 +14,7 @@ console.log(myFunction(2, 4))
 console.log(myFunction(3, 7))
 
 
+
 //2
 //создать функцию findQuarter, которая принимает два числовых аргумента х и у (это координаты точки),
 //функция выводит в консоль результат к какой четверти принадлежит точка с координатами х,у.
@@ -33,6 +34,8 @@ console.log('find quarter: -3,4:', findQuarter(-3, 4));
 console.log('find quarter: 1,4:', findQuarter(1, 4));
 
 
+
+
 //3
 //создать функцию sumPositive, которая принимает массив чисел,
 //функция выводит в консоль сумму всех положительных чисел массива.
@@ -50,6 +53,7 @@ function sumPositive(array) {
 console.log('sumPositive [-2, 4, -10, 8]:', sumPositive([-2, 4, -10, 8]));
 
 
+
 //4
 //создать функцию findMax, которая принимает три числовых аргумента a,b,c
 //Функция рассчитывает что больше, сумма чисел, или их произведение и к наибольшему прибавляет число 3;
@@ -62,3 +66,5 @@ function findMax(a, b, c) {
 
 console.log('findMax 1,2,1:',findMax(1, 2, 1))
 console.log('findMax 3,5,3:',findMax(3, 5, 3))
+
+console.log('findMax 1,2,1:')
