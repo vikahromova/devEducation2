@@ -3,6 +3,7 @@
 //eсли а – четное число, функция выводит в консоль результат умножения а * b, иначе результат суммы а + b;
 
 
+
 function myFunction(a, b) {
     if (a % 2 === 0) {
         return a * b
@@ -12,6 +13,7 @@ function myFunction(a, b) {
 }
 console.log(myFunction(2, 4))
 console.log(myFunction(3, 7))
+
 
 
 
@@ -51,6 +53,7 @@ function sumPositive(array) {
 }
 
 console.log('sumPositive [-2, 4, -10, 8]:', sumPositive([-2, 4, -10, 8]));
+
 
 
 
