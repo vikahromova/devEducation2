@@ -13,6 +13,7 @@ function myFunction(a, b) {
 }
 console.log(myFunction(2, 4))
 console.log(myFunction(3, 7))
+console.log(myFunction(1, 6))
 
 
 
